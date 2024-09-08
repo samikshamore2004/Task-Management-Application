@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Internship Program Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+              body{
+                  background-image: 
+                      url('https://wallpapercave.com/wp/wp7039147.png');
+                  background-repeat: no-repeat;
+                  
+                  background-size: cover;
+              }
+          </style>
+    </head>
+    <body>
+    <center>
+        <form action="InsertData.jsp">
+       
+            <h1><font color="black">Internship Program</font></h1>
+        <table border="0">
+           
+            <tbody>
+                <tr>
+                    <td><b><font size="3" color="red">Program Title:</font></b></td>
+                    <td><input type="text" name="ptitle" value="" required/></td>
+                </tr>
+                <tr>
+                    <td><b><font size="3" color="red">Duration:</font></b></td>
+                    <td><input type="date" name="sdate" value="" required/><input type="date" name="edate" value="" required/></td>
+                </tr>
+                <tr>
+                    <td><b><font size="3" color="red">Technology/Tools Used:</font></b></td>
+                    <td><font size="3" color="red"><input type="radio" name="tech" value="C" />C<input type="radio" name="tech" value="CPP" />CPP<input type="radio" name="tech" value="JAVA" />JAVA<input type="radio" name="tech" value="PYTHON" />Python<input type="radio" name="tech" value="PHP" />PHP</font></td>
+                </tr>
+                <tr>
+                    <td><font size="4" color="orange"><b>Project Manager Details:</b></font></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b><font size="3" color="red">Id:</font></b></td>
+                    <td><input type="text" name="id" value="" required/></td>
+                </tr>
+                <tr>
+                    <td><b><font size="3" color="red">Name:</font></b></td>
+                    <td><input type="text" name="name" value="" /></td>
+                </tr>
+                <tr>
+                    <td><b><font size="3" color="red">Email Id:</font></b></td>
+                    <td><input type="email" name="emailid" value="" /></td>
+                </tr>
+                <tr>
+                    <td><b><font size="3" color="red">Mobile Number:</font></b></td>
+                    <td><input type="number" name="mobno" value="" /></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+            </tbody>
+        </table><br><br>
+        <table border="0">
+           
+            <tbody>
+                <tr>
+                    <td><input type="reset" value="clear" /></td>
+                    <td><input type="submit" value="submit" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+ </form>
+    </center>
+    </body>
+</html>
